@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.container, .header-bar {
+    width: 800px;
+}
+
+.container, .header-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    background-color: #eeeeee;
+    width: 145px;
+    height: 245px;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    align-items: center;
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+    margin: 5px;
+    margin-left: 20px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    background-color:#9ec5f7; 
+    color: white;
+    height: 80px;
+    justify-content: space-between;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    width: 50%;
+    justify-content: space-evenly;
+    margin-right: 115px;
+    font-size: 1.3rem;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-title {
+    margin-left: 215px;
+}
+
+.header-bar {
+    height: 80px;
+    border-bottom: 2px solid black;
+}
+
+#temperature {
+    width: 50px;
+    height: 30px;
+    border: 2px solid black;
+}
+
+.date {
+    margin: 5px;
+    align-items: center;
+    margin-left: 35px;
+}
+
+.description {
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.temp-bottom {
+    margin-top: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.high {
+    color: #cf2b27;
+}
+
+.low {
+    color: #2b78e4;
+}
+
+.cookie-policy {
+    display: flex;
+}
+
+.footer {
+    margin: 0 auto;
+    width: 800px;
+    padding: 20px;
+    border: 4px solid black;
+    margin-top: 40px;
+    background-color: #eeeeee;
+    position: fixed center;
+}
+
+.btn {
+    border: 2px solid black;
+    background-color: #9ec5f7;
+    width: 120px;
+    height: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.high::after, .low::after {
+    content: "°";
+}
